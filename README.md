@@ -5,10 +5,10 @@ An end-to-end ML pipeline to segment customers using **K-Means++** and predict s
 ## 📊 Project Overview
 - **Segmentation:** Grouping customers based on income and behavior.
 - **Regression:** Predicting the 'Spending Score' (1-100) for targeted marketing.
-- **Accuracy:** Achieved an R2 score of [Insert your score here].
+- **Accuracy:** Achieved an R2 score of 84.4.
 
 ## 🛠️ How to Run
-1. Clone the repo: `git clone [your-link]`
+1. Clone the repo: `git clone https://github.com/Jyoti-ctr/Customer-Insights-Spending-Score-Prediction.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run preprocessing: `python src/preprocess.py`
 4. Run clustering: `python src/cluster.py`
@@ -24,16 +24,9 @@ An end-to-end ML pipeline to segment customers using **K-Means++** and predict s
 An end-to-end Machine Learning pipeline that segments customers into distinct personas and predicts their spending behavior with **84.4% accuracy**.
 
 ## 🚀 Quick Start
-1. **Clone:** `git clone https://github.com/YOUR_USERNAME/repo-name.git`
+1. **Clone:** `git clone https://github.com/Jyoti-ctr/Customer-Insights-Spending-Score-Prediction.git`
 2. **Install:** `pip install -r requirements.txt`
-3. **Run Pipeline:** `python main_run.py`
-4. **Predict New Data:** `python predict_new.py`
-
-## 📂 Project Structure
-- `src/`: Modular Python scripts for preprocessing, clustering, and modeling.
-- `models/`: Serialized `.pkl` files of the trained AI.
-- `data/`: Raw and processed datasets.
-- `notebooks/`: Exploratory Data Analysis (EDA).
+3. **Run Pipeline:** `python app.py`
 
 ## 💡 Business Insights
 - **Cluster 0:** High Income / Low Spenders (Target for savings-based luxury ads).
